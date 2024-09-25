@@ -1,0 +1,108 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.serverElement {
+    width: 75px;
+    height: calc(100vh - 25px);
+    background-color: rgb(43, 43, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.server-header {
+    height: 150px;
+    width: 75px;
+    border-bottom: 2px solid rgb(29, 29, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add-server {
+    outline: none;
+    border: 3px solid rgb(22, 22, 22);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: aqua;
+    background-color: rgb(56, 56, 61);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.add-server:hover {
+    background-color: rgb(49, 49, 53);
+}
+
+.create-server {
+    min-width: 25vw;
+    min-height: 35vh;
+    background-color: rgb(56, 56, 61);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 2px solid rgb(22, 22, 22);
+    color: white;
+}
+
+.create-server-header {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.close-server-window {
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border: 1px solid rgb(170, 0, 0);
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-server form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+.create-server form button {
+    width: 150px;
+    height: 35px;
+    font-size: 0.9rem;
+}
+
+.create-server table td {
+    padding: 10px 5px;
+}
+
+.create-server input[type=text] {
+    border: none;
+    padding: 5px 10px;
+    border-bottom: 3px solid rgb(105, 104, 104);
+    outline: none;
+}
+
+.close-server-window:hover {
+    background-color: rgb(212, 6, 6);
+}
+
